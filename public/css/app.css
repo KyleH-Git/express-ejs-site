@@ -1,0 +1,17 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(64, 62, 73);
+    color: white;
+    margin-top: 25px;
+    text-align: center;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}

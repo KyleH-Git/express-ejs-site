@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/app.css">
+    <title>Staff</title>
+</head>
+<body>
+    <%- include('./partials/nav') %>
+   <h1><%=member.name%></h1>
+  
+   <ul> 
+        <li><%= member.position %></li>
+        <li><%= member.email %></li>
+        <li><%= member.phone %></li>
+    </ul>
+   
+</body>
+</html>
